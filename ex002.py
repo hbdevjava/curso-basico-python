@@ -1,0 +1,6 @@
+nome = input('digite seu nome:')
+nomeDele = input('digite o nome dele: ')
+nomeDaNega = input('nome da nega?')
+print('\033[0;30;41m é um prazer te conhecer, {}!!'.format(nome))
+print('\033[4;30;47m amo vc {}'. format(nomeDele))
+print('\033[1;30;43m vc é minha nega linda {}!!!'.format(nomeDaNega))
